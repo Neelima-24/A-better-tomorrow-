@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@600&family=Montserrat:wght@500&family=Mukta:wght@200&family=Poppins:wght@300&display=swap');
+  
+        /* ----------------------------------- */
+        /* ------------- NAVBAR -------------- */
+        /* ----------------------------------- */
+      
+    
+        /* .dropdown {
+          float: right;
+          overflow: hidden;
+          color: #ffffff;}
+        .dropdown .dropbtn {
+          cursor: pointer;
+          font-size: 26px;  
+          border: #ffffff;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        } */
+        *{
+            margin: 0px;
+            padding: 0;
+            box-sizing: border-box; 
+          }
+          
+            
+            /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url("./assets/bg.png");
+              background-size: cover;
+               */
+           
+               body{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+               url("./assets/bg.png");
+               background-size: cover;
+               }
+            
+            .navbar {
+              display: flex;
+              align-items: flex-start;
+              justify-content:space-around;
+              background-color: black;
+              padding-left: 20px;
+              padding-top: 35px;
+              padding-right: 20px;
+              padding-bottom: 20px;
+              font-family: "poppins";
+            }
+          
+            .logo{
+              margin-left: 45px;
+              margin-top: 3px;
+              height: 30px;
+           }
+          
+
+           .line{
+               border-left: 1px solid #ffffff;
+               height: 40px;
+               
+           }
+            
+            .list {
+              list-style: none;
+              display: flex;
+              justify-content: flex-start;
+              gap: 10px; 
+              align-items: center; 
+              
+            }
+            
+            .list-item {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              cursor: pointer;
+              color: #ffffff;
+              margin-right: 90px;
+              font-family: "poppins";
+             
+            }
+            
+            .button-small{
+            font-style: normal;
+              font-weight: 500;
+              font-size: 16px; 
+              background-color:rgb(166, 38, 166);
+              padding: 9px 20px 9px 20px;
+              cursor: pointer;
+              border-radius: 8px ;
+              color: #ffffff;
+              margin-top: -10px;
+              border: 2px rgb(166, 38, 166);
+              font-family: "poppins";
+             
+            }
+
+          
+      
+            .hero{
+              display: flex;
+              justify-content:inherit;
+            font-style: normal;
+              font-weight: 400;
+              font-size: 29px; 
+              text-align: end;
+              cursor: pointer;
+              flex-direction: column;
+              
+            }
+            .hero-heading {
+              font-family: "monsterrat";
+              font-style: normal;
+              font-weight: 630;
+              font-size: 80px;
+              line-height: 92px;
+              color: #ffffff;
+             text-align: center;
+             margin-top: 90px;
+             font-family: "poppins";
+            }
+            
+            .hero-description {
+              font-family: "sans serif";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 30px;
+              color: #ffffff;
+              text-align: start;
+              font-family:'monsterrat';  
+              margin-left: 400px;
+              margin-top: 10px;
+              font-family: "poppins";
+            }
+          
+          .button-large{
+          font-weight: 500;
+           font-size: 30px;
+           background-color: rgb(166, 38, 166);  
+           border: 1.5px solid rgb(166, 38, 166);
+           padding: 15px 20px 15px 20px;
+           cursor: pointer;
+          border-radius: 10px;
+          color: #ffffff;
+          margin-top:80px;
+          margin-left: 500px;
+          margin-right: 500px;
+          display: flex;
+          justify-content: center;
+          font-family: "poppins";
+          
+          }
